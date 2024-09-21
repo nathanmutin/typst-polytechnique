@@ -30,6 +30,7 @@
 
   // H2 styling
   show heading.where(level:2): he => {
+    v(0.3em)
     box[#{
       set text(
         size:20pt,
@@ -39,7 +40,6 @@
       smallcaps(he)
       v(-0.5em)
       image("assets/filet-court.svg")
-      v(0.3em)
     }]
   }
 
